@@ -1,0 +1,606 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+/* Button 1 - Style 2 */
+
+.firstButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.icon {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container {
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #610C63;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.text1 {
+    width: 65%;
+    color: #610C63;
+}
+
+.text1 {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+/* Button 1 - Style 2 */
+
+#buttons-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#button1-style2 .text1 {
+    color: white;
+}
+
+#button1-style2 .img-container {
+    background: white;
+
+}
+
+/* Button 1 - Style 3 */
+
+#button1-style3 .text1 {
+    color: white;
+}
+
+#button1-style3 .img-container {
+    background: #610C63;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#button1-style3 img {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(40deg) brightness(102%) contrast(101%);
+}
+
+/* Button 1 - Style 4 */
+
+#button1-style4 img {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(40deg) brightness(102%) contrast(101%);
+}
+
+#button1-style4 .img-container {
+    background-color: transparent;
+}
+
+/* Button 2 - Style 1 */
+
+.secondButton {
+    display: flex;
+}
+
+#button2-style1 .text1 {
+    color: white;
+}
+
+#button2-style1 img {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(40deg) brightness(102%) contrast(101%);
+    width: 28px;
+}
+
+#button2-style1 .img-container {
+    background-color: transparent;
+}
+
+/* Button 2 - Style 2 */
+
+#button2-style2 img {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(40deg) brightness(102%) contrast(101%);
+    width: 26px;
+}
+
+#button2-style2 .text1 {
+    color: white;
+    width: auto;
+    text-align: left;
+    width: 70%;
+    text-align: left;
+}
+
+#button2-style2 .icon {
+    width: 20%;
+}
+
+#button2-style2 .img-container {
+    background-color: transparent;
+}
+
+#button2-style2 {
+    display: flex;
+    justify-content: right;
+}
+
+/* Button 2 - Style 3 */
+
+#button2-style3 img{
+    filter: invert(38%) sepia(83%) saturate(506%) hue-rotate(288deg) brightness(91%) contrast(82%);
+    width: 35px;
+}
+
+#button2-style3 .img-container {
+    background: transparent;
+}
+
+#button2-style3 .text {
+    color: #CA4E79;
+}
+
+#button2-style3 {
+    background-color: #F675A8;
+}
+
+#button2-style3 {
+    box-shadow: inset 0px 0px 0px 3px #CA4E79;
+}
+
+#button2-style3:hover {
+    background-color: #FFB3B3;
+}
+
+/* Special Button */
+
+#special-button {
+    box-shadow: 0px 0px 15px #CA4E79;
+    width: 60px;
+}
+
+#special-button .icon {
+    width: 60%;
+}
+
+#special-button .img-container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+#special-button img {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(40deg) brightness(102%) contrast(101%);
+}
+
+
+/* Button3 - Style1 */
+
+.thirdButton {
+    display: flex;
+}
+
+#button3-style1 img {
+    width: 30px;
+}
+
+#button3-style1:hover {
+    background-color: #277BC0;
+}
+
+/* Button3 - Style2 */
+
+#button3-style2 .text {
+    width: 100%;
+}
+
+.button3 .text {
+    padding: 0 70%;
+}
+
+#button3-style2 .img-container1 {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#button3-style2:hover {
+    background-color: #277BC0;
+}
+
+/* Circle Button 1 */
+
+.circleContainer {
+    display: flex;
+}
+
+#circlebutton1 img {
+    width: 60%;
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(40deg) brightness(102%) contrast(101%);
+}
+
+/* Circle Button 2 */
+
+#circlebutton2 img {
+    rotate: 45deg;
+    width: 60%;
+    filter: invert(93%) sepia(63%) saturate(6927%) hue-rotate(172deg) brightness(101%) contrast(106%);
+}
+
+#circlebutton2:hover {
+    background-color: #277BC0;
+}
+
+/* Circle Button 3 */
+
+#circlebutton3 img {
+    rotate: 45deg;
+    width: 60%;
+    filter: invert(74%) sepia(15%) saturate(1209%) hue-rotate(131deg) brightness(86%) contrast(92%);
+}
+
+#circlebutton3 {
+    background-color: transparent;
+    box-shadow: inset 0px 0px 0px 3px #54BAB9;
+}
+
+#circlebutton3:hover {
+    box-shadow: inset 0px 0px 0px 3px #277BC0;
+}
+
+#circlebutton3:hover {
+    filter: invert(48%) sepia(29%) saturate(1188%) hue-rotate(165deg) brightness(84%) contrast(99%);
+}
+
+.circlebutton:hover {
+    background-color: #277BC0;
+}
+
+.circlebutton {
+    cursor: pointer;
+}
+
+
+/* Fourth Button */
+
+/* Button 4 - Style 1 */
+
+#fourthButton .text {
+    color: #277BC0;
+}
+
+#fourthButton {
+    display: flex;
+}
+
+.button4-style1 {
+    background-color: transparent;
+    box-shadow: inset 0px 0px 0px 3px #277BC0;
+}
+
+.button4-style2 {
+    background-color: transparent;
+    box-shadow: inset 0px 0px 0px 3px #277BC0;
+}
+
+#specialSquare {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Button 5 - Style 1 */
+
+#buttonfive {
+    display: flex;
+}
+
+#button5-style1 {
+    background-color: #E94560;
+}
+
+#button5-style1 .text {
+    color: white;
+}
+
+#button5-style1:hover {
+    background-color: #EB1D36;
+}
+
+/* Button 5 - Style 2 */
+
+#button5-style2 {
+    background-color: #E94560;
+}
+
+#button5-style2 .text {
+    color: white;
+}
+
+#button5-style2:hover {
+    background-color: #EB1D36;
+}
+
+/* Button 5 - Square */
+
+.button5-style3 {
+    display: flex;
+}
+
+.button5-style3 .square {
+    box-shadow: none;
+    background-color: #E94560;
+}
+
+.firstsquare img {
+    filter: invert(100%) sepia(1%) saturate(2%) hue-rotate(348deg) brightness(111%) contrast(100%);
+}
+
+.secondsquare img {
+    filter: invert(16%) sepia(77%) saturate(2650%) hue-rotate(324deg) brightness(96%) contrast(89%);
+}
+
+.button5-style3 .thirdsquare {
+    background-color: #F1EFDC;
+}
+
+.thirdsquare img {
+    filter: invert(43%) sepia(25%) saturate(6213%) hue-rotate(324deg) brightness(93%) contrast(96%);
+}
+
+.square:hover {
+    background-color: #EE6983;
+}
+
+.square {
+    cursor: pointer;
+}
+
+.lastbutton {
+    display: flex;
+}
+
+/* lastbutton */
+
+.img-containerp img {
+    filter: invert(8%) sepia(95%) saturate(4450%) hue-rotate(293deg) brightness(80%) contrast(96%);
+}
+
+#button6-style1 {
+    background-color: white;
+    box-shadow: -8px 8px 40px -22px #610C63;
+}
+
+#button6-style3 {
+    position: relative;
+    background-color: #C689C6;
+}
+
+.side {
+    width: 50px;
+    height: 100%;
+    background-color: #610C63;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 10px;
+    left: -5px;
+    z-index: -1;
+}
+
+#button6-style4:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#button6-style2:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#button6-style3:hover {
+    background: #610C63;
+}
+
+#button6-style1:hover {
+    background-color: #C689C6;
+}
+
+/* Button6 - Style 4 */
+
+#button6-style4 {
+    box-shadow: -8px 8px 40px -22px #610C63;
+}
+
+/* Utilities */
+
+#buttons-container {
+    flex-direction: column;
+    height: 100vh;
+}
+
+.clrwttt img {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(40deg) brightness(102%) contrast(101%);
+}
+
+.gd-bg {
+    background-image: linear-gradient(to right, #CA4E79 0%, #C689C6 100%);
+}
+
+.square {
+    height: 60px;
+    width: 60px;
+    background-color: #E94560;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 17px;
+    border-radius: 10px;
+}
+
+.circlebutton {
+    height: 60px;
+    width: 60px;
+    background-color: #54BAB9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 17px;
+    border-radius: 50%;
+}
+
+.rotate180 {
+    rotate: 180deg;
+}
+
+.clrw {
+    filter: invert(100%) sepia(100%) saturate(1%) hue-rotate(40deg) brightness(102%) contrast(101%);
+}
+
+.clrw1 {
+    color: white;
+}
+
+.img-normal {
+    background-color: transparent;
+}
+
+.rotate img {
+    width: 30px;
+    rotate: 90deg;
+    filter: invert(94%) sepia(64%) saturate(1959%) hue-rotate(232deg) brightness(82%) contrast(86%);
+}
+
+.text {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.simple {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #C689C6;
+    margin: 5px;
+}
+
+.simple:hover {
+    background: #CA4E79;
+}
+
+.simple2 {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #EE6983;
+    margin: 5px;
+}
+
+.simple2:hover {
+    background-color: #850E35;
+}
+
+
+.simple-trans {
+    height: 60px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: transparent;
+    margin: 5px;
+}
+
+.simple-trans:hover {
+    filter: invert(57%) sepia(64%) saturate(426%) hue-rotate(133deg) brightness(82%) contrast(89%);
+}
+
+.squareBaby {
+    height: 60px;
+    width: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: blue;
+    margin: 5px;
+}
+
+.long {
+    width: 340px;
+}
+
+#button3-style2 img {
+    width: 30px;
+}
+
+.bg-blue {
+    background-color: #54BAB9;
+}
+
+/* Squares */
+
+.fsquare {
+    border-radius: 10px 5px 5px 10px;
+    background-color: transparent;
+    filter: invert(34%) sepia(86%) saturate(2339%) hue-rotate(188deg) brightness(109%) contrast(102%);
+    box-shadow: inset 0px 0px 0px 2px #0096FF;
+}
+
+#circlebutton1 img {
+    width: 30px;
+}
+
+.ssquare {
+    border-radius: 10px;
+    background-color: transparent;
+    filter: invert(34%) sepia(86%) saturate(2339%) hue-rotate(188deg) brightness(109%) contrast(102%);
+    box-shadow: inset 0px 0px 0px 2px #0096FF;
+}
+
+#circlebutton2 img {
+    width: 28px;
+}
+
+#squarebab img {
+    width: 25px;
+    filter: invert(34%) sepia(86%) saturate(2339%) hue-rotate(188deg) brightness(109%) contrast(102%);
+}
+
+.tsquare {
+    border-radius: 10px;
+    background-color: transparent;
+    filter: invert(34%) sepia(86%) saturate(2339%) hue-rotate(188deg) brightness(109%) contrast(102%);
+    box-shadow: inset 0px 0px 0px 2px #0096FF;
+}
+
+.fsquare:hover {
+    box-shadow: inset 0px 0px 0px 2px #5800FF;
+    background-color: transparent;
+}
+
+.tsquare:hover {
+    box-shadow: inset 0px 0px 0px 2px #5800FF;
+    background-color: transparent;
+}
+
+#hellosquare img {
+    width: 20px;
+    filter: invert(34%) sepia(86%) saturate(2339%) hue-rotate(188deg) brightness(109%) contrast(102%);
+}
